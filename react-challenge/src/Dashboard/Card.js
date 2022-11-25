@@ -8,7 +8,7 @@ const Card = (props) => {
       <CardImage className="card" src={`${props?.values.images.sm}`}>
         <TextImg>
           <span className="card-title">
-            <strong>{props.values.name}</strong>
+            <p>{props.values.name}</p>
           </span>
           <p>Height: {`${props.values.appearance.height[1]}`}</p>
           <p>Height: {`${props.values.appearance.weight[1]}`}</p>

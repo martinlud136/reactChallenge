@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div>
-      <h4 className="center-align">Superhero App</h4>
+      <h6 className="center-align" style={{marginTop : "30px"}}>Superhero App</h6>
       <Container>
         {!fetching ? (
           post.slice(0, 12).map((hero) => <Card key={hero.id} values={hero} />)
